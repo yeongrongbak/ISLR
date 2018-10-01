@@ -90,7 +90,7 @@
     - 반면 k-fold에서 각 모델의 훈련셋 사이에는 겹치는 부분이 적어 적합된 모델들이 서로 덜 상관되어있다.
     - 상관성이 높은 값들의 평균은 상관성이 낮은 값들의 평균보다 분산이 크기 때문에 LOOCV의 검정오차 추정치는 k-fold CV에서보다 분산이 더 큰 경향이 있다.
 
-![k-fold.PNG](attachment:k-fold.PNG)
+![k-fold.PNG](https://user-images.githubusercontent.com/40160683/46272569-97f04780-c58c-11e8-8dd6-5f5be1ff849c.PNG)
 
 ## 2. 붓스트랩(Bootstrap)
 
@@ -100,11 +100,11 @@
 - 간단하게는 선형회귀 적합에서 계수의 표준오차를 추정하는데 사용
 
 
-![boot_hist.PNG](attachment:boot_hist.PNG)
+![boot_hist.PNG](https://user-images.githubusercontent.com/40160683/46272574-99ba0b00-c58c-11e8-8317-e7d2fbe3fe72.PNG)
 
 - 위 히스토그램과 박스플랏을 살펴보면 실제 모집단과 1,000개 붓스트랩 추정치에서 얻은 alpha 값 추정치가 서로 유사한 것을 알 수 있다.
 
-![boot_ex.PNG](attachment:boot_ex.PNG)
+![boot_ex.PNG](https://user-images.githubusercontent.com/40160683/46272576-9aeb3800-c58c-11e8-9305-a4bf9cb5b786.PNG)
 
 - 붓스트랩 기법을 n=3 개의 관측치를 포함하는 작은 표본에 적용한 그림
 
