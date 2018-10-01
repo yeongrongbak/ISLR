@@ -59,7 +59,7 @@
 
 - LOOCV는 매우 일반적인 방법이고, 어떠한 종류의 예측 모델과도 함께 사용될 수 있다.
 
-![LOOCV.PNG](attachment:LOOCV.PNG)
+![LOOCV.PNG](https://user-images.githubusercontent.com/40160683/46272546-7beca600-c58c-11e8-9792-591463074cdb.PNG)
 
 ### 1-3. k-fold 교차검증
 
